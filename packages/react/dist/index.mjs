@@ -198,7 +198,7 @@ var AvatarFallback = styled(Avatar.Fallback, {
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
-  backgroundColor: "$gray600",
+  backgroundColor: "$gray200",
   color: "$gray800",
   svg: {
     width: "$6",
