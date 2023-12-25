@@ -159,7 +159,7 @@ var Heading = styled("h2", {
   fontFamily: "$dafault",
   lineHeight: "$short",
   margin: 0,
-  color: "$gray900",
+  color: "$gray800",
   variants: {
     size: {
       sm: { fontSize: "$xl" },
