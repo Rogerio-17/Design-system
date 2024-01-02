@@ -827,7 +827,10 @@ declare const AvatarImage: _stitches_react_types_styled_component.StyledComponen
 type AvatarProps = ComponentProps<typeof AvatarImage>;
 declare function Avatar(props: AvatarProps): react_jsx_runtime.JSX.Element;
 
-declare const Button: _stitches_react_types_styled_component.StyledComponent<"button", {}, {}, _stitches_react_types_css_util.CSS<{}, {
+declare const Button: _stitches_react_types_styled_component.StyledComponent<"button", {
+    variant?: "primary" | "secondary" | "tertiary" | undefined;
+    size?: "sm" | "md" | undefined;
+}, {}, _stitches_react_types_css_util.CSS<{}, {
     colors: {
         white: string;
         black: string;
