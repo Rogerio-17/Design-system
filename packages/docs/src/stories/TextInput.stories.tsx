@@ -1,6 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
 import { Box, Text, TextInput, TextInputProps } from '@ignite-ui/react'
-import { TextT } from 'phosphor-react'
 
 export default {
   title: 'Form/Text Input',
