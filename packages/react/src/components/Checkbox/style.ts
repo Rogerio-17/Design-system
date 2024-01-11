@@ -14,20 +14,20 @@ export const CheckboxContainer = styled(Checkbox.Root, {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  border: '2p solid $ignite900',
+  border: '2px solid $ignite900',
 
-  '&:[data-state="checked"]': {
+  '&[data-state="checked"]': {
     backgroundColor: '$ignite300',
   },
 
   '&:focus': {
-    border: '2p solid $ignite300',
+    border: '2px solid $ignite300',
   },
 })
 
 const slideIn = keyframes({
-  form: {
-    transform: 'translateY(-100)',
+  from: {
+    transform: 'translateY(-100%)',
   },
   to: {
     transform: 'translateY(0)',
@@ -35,11 +35,11 @@ const slideIn = keyframes({
 })
 
 const slideOut = keyframes({
-  form: {
+  from: {
     transform: 'translateY(0)',
   },
   to: {
-    transform: 'translateY(-100)',
+    transform: 'translateY(-100%)',
   },
 })
 
@@ -48,11 +48,11 @@ export const CheckboxIndicator = styled(Checkbox.Indicator, {
   width: '$4',
   height: '$4',
 
-  '&:[data-state="checked"]': {
+  '&[data-state="checked"]': {
     animation: `${slideIn} 200ms ease-out`,
   },
 
-  '&:[data-state="unchecked"]': {
+  '&[data-state="unchecked"]': {
     animation: `${slideOut} 200ms ease-out`,
   },
 })
