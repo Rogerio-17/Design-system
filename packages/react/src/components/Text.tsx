@@ -5,7 +5,7 @@ export const Text = styled('p', {
   fontFamily: '$dafault',
   lineHeight: '$base',
   margin: 0,
-  color: '$gray900',
+  color: '$gray400',
 
   variants: {
     size: {
@@ -31,3 +31,5 @@ export const Text = styled('p', {
 })
 
 export type TextProps = ComponentProps<typeof Text>
+
+Text.displayName = 'Text'

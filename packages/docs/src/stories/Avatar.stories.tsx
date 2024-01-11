@@ -9,6 +9,13 @@ export default {
     src: 'https://github.com/Rogerio-17.png',
     alt: 'Rogério José',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
